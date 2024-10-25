@@ -62,8 +62,7 @@ const MoodPicker = () => {
     return (
         <div 
             style={{
-                gridTemplateColumns: "repeat( auto-fill, minmax(200px, 200px) )",
-                // gridTemplateColumns: "repeat( auto-fill, minmax(200px, 1fr) )",
+                gridTemplateColumns: "repeat( auto-fill, minmax(200px, 1fr) )",
                 gridTemplateRows: "auto",
                 gridAutoRows: "1fr",
                 gap: "5px",
