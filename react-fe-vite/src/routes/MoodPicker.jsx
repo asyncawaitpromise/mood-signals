@@ -38,26 +38,7 @@ const MOOD_DATA = {
     desc: "Happy"
 };
 const MoodPicker = () => {
-    const [moods, setMoods] = useState([]);
-
-    const getDefaultMoods = async () => {
-        return Array(1).fill(MOOD_DATA);
-    };
-
-    const getUserMoods = async () => {
-        return Array(0).fill(MOOD_DATA);
-    };
-
-    useEffect(() => {
-        (async () => {
-            let moodsToSet = [];
-            const defaultMoodsResponse = await getDefaultMoods();
-            moodsToSet = moodsToSet.concat(defaultMoodsResponse);
-            const userMoodsResponse = await getUserMoods();
-            moodsToSet = moodsToSet.concat(userMoodsResponse);
-            setMoods(moodsToSet);
-        })();
-    }, []);
+    const moods = Array(3).fill(MOOD_DATA);
 
     return (
         <div 

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<minder version="1.16.4" parent-etag="2048770682" etag="3216448381">
-  <theme name="default" label="Light" index="7"/>
+<minder version="1.16.4" parent-etag="2880767156" etag="2762577149">
+  <theme name="default" label="Light" index="0"/>
   <styles>
     <style level="0" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
     <style level="1" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
@@ -16,68 +16,61 @@
   </styles>
   <images/>
   <nodes>
-    <node id="0" posx="473.5703125" posy="229.890625" width="144" height="54" side="left" fold="false" treesize="376" summarized="false" layout="Horizontal" group="false">
+    <node id="0" posx="473.5703125" posy="229.890625" width="144" height="54" side="left" fold="false" treesize="322" summarized="false" layout="Horizontal" group="false">
       <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
       <nodename maxwidth="200">
         <text data="Mood Signals"/>
       </nodename>
       <nodenote></nodenote>
       <nodes>
-        <node id="1" posx="717.5703125" posy="68.890625" width="204" height="80" side="right" fold="false" treesize="80" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+        <node id="1" posx="717.5703125" posy="95.890625" width="204" height="80" side="right" fold="false" treesize="80" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
           <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
           <nodename maxwidth="200">
             <text data="UI for choosing your mood"/>
           </nodename>
           <nodenote></nodenote>
+          <nodes>
+            <node id="21" posx="1021.5703125" posy="108.890625" width="154" height="54" side="right" fold="false" treesize="54" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="200">
+                <text data="Default Moods"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
         </node>
-        <node id="2" posx="717.5703125" posy="148.890625" width="174" height="54" side="right" fold="false" treesize="54" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+        <node id="2" posx="717.5703125" posy="175.890625" width="174" height="54" side="right" fold="false" treesize="54" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
           <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
           <nodename maxwidth="200">
             <text data="Make an account"/>
           </nodename>
           <nodenote></nodenote>
         </node>
-        <node id="3" posx="717.5703125" posy="202.890625" width="76" height="54" side="right" fold="false" treesize="54" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+        <node id="3" posx="717.5703125" posy="229.890625" width="76" height="54" side="right" fold="false" treesize="54" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
           <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
           <nodename maxwidth="200">
             <text data="Login"/>
           </nodename>
           <nodenote></nodenote>
         </node>
-        <node id="4" posx="717.5703125" posy="256.890625" width="133" height="54" side="right" fold="false" treesize="54" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+        <node id="4" posx="717.5703125" posy="283.890625" width="133" height="54" side="right" fold="false" treesize="54" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
           <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
           <nodename maxwidth="200">
             <text data="Add a friend"/>
           </nodename>
           <nodenote></nodenote>
         </node>
-        <node id="5" posx="717.5703125" posy="310.890625" width="194" height="80" side="right" fold="false" treesize="80" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+        <node id="5" posx="717.5703125" posy="337.890625" width="194" height="80" side="right" fold="false" treesize="80" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
           <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
           <nodename maxwidth="200">
             <text data="Overview of friends moods"/>
           </nodename>
           <nodenote></nodenote>
           <nodes>
-            <node id="8" posx="1011.5703125" posy="323.890625" width="189" height="54" side="right" fold="false" treesize="54" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+            <node id="8" posx="1011.5703125" posy="350.890625" width="189" height="54" side="right" fold="false" treesize="54" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
               <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
               <nodename maxwidth="200">
                 <text data="Subscribe to notifs"/>
-              </nodename>
-              <nodenote></nodenote>
-            </node>
-          </nodes>
-        </node>
-        <node id="6" posx="717.5703125" posy="390.890625" width="222" height="54" side="right" fold="false" treesize="54" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
-          <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-          <nodename maxwidth="200">
-            <text data="UI for creating a mood"/>
-          </nodename>
-          <nodenote></nodenote>
-          <nodes>
-            <node id="7" posx="1039.5703125" posy="390.890625" width="99" height="54" side="right" fold="false" treesize="54" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
-              <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename maxwidth="200">
-                <text data="Defaults"/>
               </nodename>
               <nodenote></nodenote>
             </node>
@@ -122,35 +115,35 @@
         </node>
       </nodes>
     </node>
-    <node id="15" posx="800.41796875" posy="-61.6171875" width="68" height="54" side="right" fold="false" treesize="216" summarized="false" layout="Horizontal" group="false">
+    <node id="15" posx="800.41796875" posy="-88.6171875" width="68" height="54" side="left" fold="false" treesize="216" summarized="false" layout="Horizontal" group="false">
       <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
       <nodename maxwidth="200">
         <text data="User"/>
       </nodename>
       <nodenote></nodenote>
       <nodes>
-        <node id="16" posx="968.41796875" posy="-142.6171875" width="200" height="54" side="right" fold="false" treesize="54" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+        <node id="16" posx="968.41796875" posy="-169.6171875" width="200" height="54" side="right" fold="false" treesize="54" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
           <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
           <nodename maxwidth="200">
             <text data="Active Mood (FK_ID)"/>
           </nodename>
           <nodenote></nodenote>
         </node>
-        <node id="17" posx="968.41796875" posy="-88.6171875" width="47" height="54" side="right" fold="false" treesize="54" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
+        <node id="17" posx="968.41796875" posy="-115.6171875" width="47" height="54" side="right" fold="false" treesize="54" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
           <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
           <nodename maxwidth="200">
             <text data="ID"/>
           </nodename>
           <nodenote></nodenote>
         </node>
-        <node id="18" posx="968.41796875" posy="-34.6171875" width="216" height="54" side="right" fold="false" treesize="54" color="#715344" colorroot="false" summarized="false" layout="Horizontal" group="false">
+        <node id="18" posx="968.41796875" posy="-61.6171875" width="216" height="54" side="right" fold="false" treesize="54" color="#715344" colorroot="false" summarized="false" layout="Horizontal" group="false">
           <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
           <nodename maxwidth="200">
             <text data="Friends (List of Users)"/>
           </nodename>
           <nodenote></nodenote>
         </node>
-        <node id="19" posx="968.41796875" posy="19.3828125" width="304" height="54" side="right" fold="false" treesize="54" color="#333333" colorroot="false" summarized="false" layout="Horizontal" group="false">
+        <node id="19" posx="968.41796875" posy="-7.6171875" width="304" height="54" side="right" fold="false" treesize="54" color="#333333" colorroot="false" summarized="false" layout="Horizontal" group="false">
           <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="306" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
           <nodename maxwidth="320.01953125">
             <text data="Subscriptions (Friends followed)"/>
