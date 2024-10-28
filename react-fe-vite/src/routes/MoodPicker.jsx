@@ -20,7 +20,7 @@ const MoodCard = (props) => {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                aspectRatio: 1,
+                aspectRatio: 2 / 1,
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
